@@ -18,23 +18,12 @@ conda activate aldi
 1. Clone this repository with submodules:
 
 ```
-git clone git@github.com:justinkay/aldi.git
+git clone https://github.com/justinkay/aldi.git
 cd aldi
 ```
 
-2. Install Detectron2:
+2. Install Detectron2 and ALDI's requirement:
 
 ```
-git submodule update --init --recursive
-cd libs/detectron2
-pip install -e .
-```
-
-3. Install ALDI:
-
-```
-# if working directory is libs/detectron2
-cd ../..
-
 pip install -e .
 ```
